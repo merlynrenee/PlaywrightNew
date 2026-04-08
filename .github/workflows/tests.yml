@@ -32,7 +32,7 @@ jobs:
 
       # Step 5 — run your tests
       - name: Run tests
-        run: python -m pytest -m smoke -v --headed=false --html=report.html
+        run: python -m pytest -m smoke -v --html=report.html
         env:
           BASE_URL:       ${{ secrets.BASE_URL }}
           USER_EMAIL:     ${{ secrets.USER_EMAIL }}
