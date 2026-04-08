@@ -1,0 +1,7 @@
+playwright
+pytest-playwright
+pytest-html
+pytest-bdd
+python-dotenv
+pytest-xdist
+pytest-rerunfailures

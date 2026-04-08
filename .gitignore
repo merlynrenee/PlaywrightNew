@@ -1,0 +1,14 @@
+# credentials — NEVER push these
+.env
+auth.json
+
+# Python clutter
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+
+# test output
+test-results/
+snapshots/
+report.html
